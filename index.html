@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainWrapper">
+        <header><h1>Analog Clock Quiz</h1></header>
+        <main>
+            <section id="clock">
+                <canvas id="canvas" width="400" height="400"></canvas>
+            </section>
+            <section id="options">
+                <div id="op1" style="background: rgb(255, 99, 99);"></div>
+                <div id="op2" style="background: yellow;"></div>
+                <div id="op3" style="background: aqua;"></div>
+                <div id="op4" style="background: rgb(0, 202, 0);"></div>
+            </section>
+            <section id="manual"></section>
+            <section id="stats">
+                <!--<p>Time left<br><span id="timeLeft">60</span></p>-->
+                <p>Correct<br><span id="correct">0</span></p>
+                <p>Out of<br><span id="total">0</span></p>
+                <p>%<br><span id="ave">0</span></p>
+            </section>
+        </main>
+        <footer><p>&copy;Birkel 2024</p></footer>
+    </div>
+    <script src="code.js"></script>
+</body>
+</html>
